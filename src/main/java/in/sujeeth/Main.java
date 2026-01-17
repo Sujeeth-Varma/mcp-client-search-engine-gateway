@@ -38,7 +38,5 @@ public class Main {
             System.out.println("  Description: " + tool.description());
             System.out.println("  Schema: " + tool.inputSchema());
         });
-
-        // Note: depending on SDK version, explicit shutdown may not be required.
     }
 }
